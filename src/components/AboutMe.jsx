@@ -12,10 +12,10 @@ const AboutMe = () => {
 
         <p className="text-gray-700 leading-relaxed text-lg">
           I am a results-oriented Full-Stack Web Developer with hands-on experience in designing and building scalable web applications using the MERN stack (MongoDB, Express, React, Node.js).
-          My expertise includes frontend technologies like HTML, CSS, JavaScript, and React, along with backend proficiency in Node.js and Express.
+          My expertise includes frontend technologies like HTML, CSS, JavaScript, React, Typescript, Redux toolkit, Chakra Ui, and Tailwind CSS along with backend proficiency in Node.js and Express.
 
           <br /><br />
-          I’ve completed over 100+ hours of holistic development work, including six fully functional projects and 30+ mini projects. I’m passionate about clean code, performance optimization, and intuitive user experiences. With a strong grasp of data structures and algorithms, I enjoy solving complex problems and working in collaborative environments to bring impactful ideas to life.
+          I’ve completed over 100+ hours of holistic development work, including many fully functional projects and mini projects. I’m passionate about clean code, performance optimization, and intuitive user experiences. With a strong grasp of data structures and algorithms, I enjoy solving complex problems and working in collaborative environments to bring impactful ideas to life.
 
           <br /><br />
           I’m constantly exploring new technologies and aiming to grow as a developer by contributing to challenging and meaningful projects.

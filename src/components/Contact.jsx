@@ -1,5 +1,6 @@
 // ContactSection.tsx
-import { FaEnvelope, FaThumbsUp, FaInstagram, FaFacebook, FaBehance, FaVimeo, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiPhone } from "react-icons/fi";
 import emailjs from "@emailjs/browser";
 import { useState } from "react";
 import FadeInWhenVisible from "./layouts/FadeInWhenVisible";
@@ -62,19 +63,19 @@ export default function Contact() {
           <FadeInWhenVisible direction="up" animationType="scale" delay={1 * 0.2}>
             <div className="flex items-center gap-3 mb-6">
               <FaEnvelope className="text-lg text-gray-700" />
-              <a href="mailto:youremail@example.com" className="text-gray-800 underline">
-                youremail@example.com
+              <a href="mailto:rahulkumarmishra5338@gmail.com" className="text-gray-800 underline">
+                rahulkumarmishra5338@gmail.com
               </a>
             </div>
+            <div className="flex items-center gap-3 mb-6">
+             <FiPhone className="text-lg text-gray-700"/> +91 9304395338
+            </div>
+            
           </FadeInWhenVisible>
           <FadeInWhenVisible direction="up" animationType="scale" delay={1 * 0.2}>
             <div className="flex gap-4 text-xl text-gray-800">
-              <FaThumbsUp />
-              <FaInstagram />
-              <FaFacebook />
-              <FaBehance />
-              <FaVimeo />
-              <FaLinkedin />
+              <a href="https://www.linkedin.com/in/rahul-mishra-060054241/" target="_blank"><FaLinkedin /></a>
+              <a href="https://github.com/Pannakbhushana" target="_blank"><FaGithub /></a>
             </div>
           </FadeInWhenVisible>
         </div>
