@@ -4,6 +4,12 @@ import BackgroundPattern from "./layouts/BackgroundPattern";
 import SectionHeading from "./layouts/SectionHeading";
 
 const HeroBanner = () => {
+    const handleResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1zu1sXl1kch01CXCo61nVcXjjEsFQMi3D/view?usp=sharing"
+    );
+  };
+
     return (
         <section
             id="hero"
@@ -25,9 +31,9 @@ const HeroBanner = () => {
                     </p>
 
                     {/* Resume Button */}
-                    <div className="mt-6 flex justify-center">
+                    <div className="mt-6 flex justify-center" onClick={handleResume}>
                         <a
-                            href="/Rahul_Mishra_Resume.pdf"
+                            href="/rahul-kumar-mishra-resume.pdf"
                             download
                             target="_blank"
                             className="inline-flex items-center gap-2 px-5 py-3 border-2 border-[#8A3B12] text-[#8A3B12] rounded-lg text-base font-medium hover:bg-[#8A3B12] hover:text-white transition duration-300"
