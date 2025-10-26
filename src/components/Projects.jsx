@@ -53,15 +53,7 @@ const projects = [
     image: "/kalptaru.jpg",
     link: "https://taupe-salamander-d7555e.netlify.app/",
     github: "https://github.com/Pannakbhushana/amezon-clone?tab=readme-ov-file",
-  },
-  {
-    title: "OneStore",
-    summary: "OneStore is a Lifestyle Accessories Brand that curates stunning designs and prints it on a wide range of personal accessories. We vision to bring the things you love on the things you use.",
-    techStack: ["React", "Chakra UI", "Redux", "Node.js", "MongoDB"],
-    image: "https://github.com/palabhi017/rctc4eva/raw/master/src/styles/Screenshot%20(129).png?raw=true",
-    link: "https://ephemeral-brioche-f8dbe6.netlify.app/",
-    github: "https://github.com/Pannakbhushana/Meesho-Clone",
-  },
+  }
 ];
 
 const Projects = () => {
