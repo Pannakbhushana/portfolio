@@ -4,6 +4,24 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import SectionHeading from "./layouts/SectionHeading";
 
 const projects = [
+{
+  title: "PujaPadhati Version 1",
+  summary:
+    "A spiritual ritual platform featuring slokas, mantras, aartis, and donation capabilities. Built with a simple yet elegant UI for exploring Hindu rituals and devotional content.",
+  techStack: ["React.js", "Chakra UI", "EmailJS"],
+  image: "/pujapadhati.png",
+  link: "https://puja-padhati.netlify.app",
+  github: "https://github.com/Pannakbhushana/puja-padhati",
+},
+{
+  title: "PujaPadhati Version 2.0 visit: (pujapadhati.com)",
+  summary:
+    "An SEO-optimized spiritual platform with Festivals, Remedies, Dark Mode, Search, and a Play Store app (PujaPadhati).",
+  techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Fuse.js", "EmailJS"],
+  image: "pujapadhati-v2.webp",
+  link: "https://pujapadhati.com",
+  github: "https://github.com/Pannakbhushana/pujapadhati-version-2",
+},
   {
     title: "MessGo App",
     summary: "A meal subscription platform for users and mess owners with payment integration.",
@@ -11,14 +29,6 @@ const projects = [
     image: "/messgo.jpg",
     link: "https://messgo.in/",
     github: "https://github.com/Pannakbhushana/messgo",
-  },
-  {
-    title: "PujaPadhati",
-    summary: "A spiritual ritual platform with slokas, mantras, aartis, and donation features.",
-    techStack: ["Next.js", "Tailwind CSS", "Razorpay API"],
-    image: "/pujapadhati.png",
-    link: "https://pujapadhati.com",
-    github: "https://github.com/Pannakbhushana/puja-padhati",
   },
   {
     title: "ChatBot",
