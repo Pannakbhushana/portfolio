@@ -25,9 +25,10 @@ const HeroBanner = () => {
                     <SectionHeading>I'm Rahul Kumar Mishra</SectionHeading>
 
                     <p className="mt-4 text-gray-600 leading-relaxed text-lg">
-                        Full-Stack Web Developer 👨‍💻 <br />
-                        I build responsive, high-performance web applications using the MERN stack.
-                        Passionate about clean code, intuitive UI, and continuous learning.
+                        Frontend Developer | React & JavaScript 👨‍💻 <br />
+                        I build responsive, fast, and user-focused web applications using React, JavaScript, 
+                        and modern frontend tooling. I focus on clean architecture, reusable components, 
+                        and delivering intuitive user experiences.
                     </p>
 
                     {/* Resume Button */}
@@ -47,7 +48,7 @@ const HeroBanner = () => {
                 {/* Right: Image */}
                 <div className="md:w-[40%] flex justify-center">
                     <img
-                        src="./rahul.jpg"
+                        src="./rahul-img.png"
                         alt="Rahul Kumar Mishra"
                         className="w-60 h-60 md:w-80 md:h-80 rounded-full border-2 border-blue-500 shadow-xl object-cover"
                     />

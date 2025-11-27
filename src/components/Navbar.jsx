@@ -14,7 +14,7 @@ const Navbar = () => {
 
         {/* Nav Links */}
         <div className="hidden md:flex space-x-8 items-center">
-          {["about", "skills", "projects", "contact"].map((link) => (
+          {["about", "skills", "achievements", "projects", "contact"].map((link) => (
             <a
               key={link}
               href={`#${link}`}
