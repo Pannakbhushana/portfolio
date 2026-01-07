@@ -6,7 +6,7 @@ import SectionHeading from "./layouts/SectionHeading";
 const HeroBanner = () => {
     const handleResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1zu1sXl1kch01CXCo61nVcXjjEsFQMi3D/view?usp=sharing"
+      "https://drive.google.com/file/d/1hKyuokSK_Eyg0ZDkLLeZri335jUdUCuN/view?usp=sharing"
     );
   };
 
