@@ -5,10 +5,10 @@ import SectionHeading from "./layouts/SectionHeading";
 
 const HeroBanner = () => {
     const handleResume = () => {
-    window.open(
-      "https://drive.google.com/file/d/1hKyuokSK_Eyg0ZDkLLeZri335jUdUCuN/view?usp=sharing"
-    );
-  };
+        window.open(
+            "https://drive.google.com/file/d/1hKyuokSK_Eyg0ZDkLLeZri335jUdUCuN/view?usp=sharing"
+        );
+    };
 
     return (
         <section
@@ -25,10 +25,9 @@ const HeroBanner = () => {
                     <SectionHeading>I'm Rahul Kumar Mishra</SectionHeading>
 
                     <p className="mt-4 text-gray-600 leading-relaxed text-lg">
-                        Frontend Developer | React & JavaScript 👨‍💻 <br />
-                        I build responsive, fast, and user-focused web applications using React, JavaScript, 
-                        and modern frontend tooling. I focus on clean architecture, reusable components, 
-                        and delivering intuitive user experiences.
+                        Frontend Engineer | React • Next.js • TypeScript • React Native <br />
+
+                        I build and ship production web and mobile applications. I have experience developing enterprise applications and independently building, publishing, and maintaining production products used by thousands of users.
                     </p>
 
                     {/* Resume Button */}
@@ -54,7 +53,7 @@ const HeroBanner = () => {
                     />
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

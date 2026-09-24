@@ -11,9 +11,13 @@ const AboutMe = () => {
         </FadeInWhenVisible>
 
         <p className="text-gray-700 leading-relaxed text-lg">
-          I am a dedicated Web Developer with practical experience in building responsive and scalable applications using the MERN stack. My core strengths lie in frontend development, particularly in React, JavaScript, TypeScript, Redux Toolkit, Chakra UI, and Tailwind CSS. On the backend, I work with Node.js and Express to create secure and efficient APIs.
-          I have built multiple end-to-end projects that reflect strong fundamentals in clean code, component-driven architecture, and performance optimization. I also have a good understanding of data structures and algorithms, and I enjoy solving technical problems through logical and structured approaches.
-          I continuously explore modern tools and technologies and aim to contribute to products that offer meaningful user experiences while growing as a developer in a collaborative environment.
+          I’m a Frontend Engineer with professional experience building production web and mobile applications using React, Next.js, TypeScript, and React Native.
+
+          I’ve worked on enterprise applications as well as independently built and shipped production products used by thousands of users. My experience includes building reusable component-driven interfaces, integrating REST APIs, managing application state with Redux, implementing offline-first functionality, and optimizing frontend performance.
+
+          I also have hands-on backend experience with Node.js, Express.js, and MongoDB, which helps me understand and work across the full application stack.
+
+          Beyond development, I’ve worked with production deployments, CI/CD workflows, app releases, and maintaining applications after launch. I enjoy solving engineering problems, learning new technologies, and building products that are reliable, maintainable, and useful to real users.
         </p>
       </div>
     </section>

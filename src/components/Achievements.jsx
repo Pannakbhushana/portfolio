@@ -3,16 +3,17 @@ import FadeInWhenVisible from "./layouts/FadeInWhenVisible";
 import SectionHeading from "./layouts/SectionHeading";
 
 const achievements = [
-  "Published the PujaPadhati mobile app on the Google Play Store with real users.",
-  "Built and deployed a production-ready spiritual platform with a custom domain (pujapadhati.com).",
-  "Fully optimized the PujaPadhati v2 platform for SEO, improving performance, indexing, and overall search visibility.",
-  "Integrated Razorpay payment gateway in a real-world meal subscription app (MessGo).",
-  "Completed 100+ hours of MERN stack development and multiple full-stack projects.",
-  "Implemented a full subscription lifecycle system including auto-expiry, pause, resume, and renewal logic (messgo)",
-  "Built automated email workflows to notify users of subscription activation, expiry warnings, and final expiration using background jobs. (messgo)",
-  "Developed scheduler-based jobs in JavaScript to handle time-bound subscription logic and notification systems (messgo)",
-  "Engineered a reliable subscription alert framework improving user engagement and reducing churn. (messgo)",
-  "Strong GitHub activity with consistent contributions across personal projects.",
+  "Published and maintained PujaPadhati on the Google Play Store, reaching 5,000+ installs and real daily users.",
+
+  "Built and deployed PujaPadhati as a production web platform at pujapadhati.com, serving real users with a content-focused Next.js application.",
+
+  "Migrated PujaPadhati from a WebView-based implementation to React Native and implemented offline-first content access for the mobile application.",
+
+  "Improved the PujaPadhati web platform's technical SEO, page structure, performance, and search-engine indexing.",
+
+  "Integrated Razorpay payments into MessGo and built subscription lifecycle functionality including pause, resume, renewal, auto-expiry, scheduled jobs, and automated email notifications.",
+
+  "Built and published the Satyanarayan Puja & Katha Android application, reaching 1,000+ installs.",
 ];
 
 export default function Achievements() {
@@ -21,9 +22,9 @@ export default function Achievements() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <FadeInWhenVisible direction="up" animationType="scale">
-                <SectionHeading>Achievements</SectionHeading>
-            </FadeInWhenVisible>
-<br />
+          <SectionHeading>Achievements</SectionHeading>
+        </FadeInWhenVisible>
+        <br />
         {/* Achievements Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {achievements.map((item, index) => (
