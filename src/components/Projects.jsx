@@ -5,33 +5,30 @@ import SectionHeading from "./layouts/SectionHeading";
 
 const projects = [
   {
-    title: "PujaPadhati – Mobile App (Published on Google Play Store)",
+    title: "PujaPadhati – Mobile App",
     summary:
       "A spiritual mobile app featuring festivals, rituals, remedies, and search functionality. Published on the Google Play Store with active users.",
     techStack: ["React Native", "TypeScript", "Expo", "React Navigation"],
-    image: "/omorg.webp",
+    image: "/pp-card.jpg",
     link: "https://play.google.com/store/apps/details?id=com.rahulmishra.PujaPadhati",
     video: "https://www.youtube.com/shorts/_iMcF-stVYM",
   },
   {
-    title: "PujaPadhati (v2.0) – Web Application",
+    title: "Satyanarayan Puja & Katha – Mobile App",
+    summary: "A React Native devotional app featuring Satyanarayan Puja Vidhi, Katha, Aarti, Havan Vidhi, and Puja Samagri in Hindi, with fully offline content access.",
+    techStack: ["React Native", "TypeScript", "Expo", "React Navigation"],
+    image: "/satya.jpg",
+    link: "https://play.google.com/store/apps/details?id=com.pujapadhati.satyanarayan",
+  },
+  {
+    title: "PujaPadhati v2.0 – Web Application",
     live: "www.pujapadhati.com",
     summary:
       "An SEO-optimized spiritual platform with Festivals, Remedies, Dark Mode, Search, and a Play Store app (PujaPadhati).",
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Fuse.js", "EmailJS"],
-    image: "/pujapadhati-v2.webp",
+    image: "/pp-web.jpg",
     link: "https://pujapadhati.com",
     video: "https://www.youtube.com/shorts/_iMcF-stVYM",
-  },
-  {
-    title: "MessGo",
-    live: "www.messgo.in",
-    summary: "A subscription-based meal management platform enabling users to book plans and mess owners to manage orders, menus, and payments seamlessly",
-    techStack: ["React", "TypeScript", "Redux Toolkit", "Node.js", "MongoDB"],
-    image: "/messgo.jpg",
-    link: "https://messgo.in/",
-    github: "https://github.com/Pannakbhushana/messgo",
-    video: "https://www.youtube.com/watch?v=2pq5RbrPw3I"
   },
   {
     title: "ChatBot",
