@@ -3,7 +3,8 @@ import React from "react";
 const Navbar = () => {
   const handleResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1hKyuokSK_Eyg0ZDkLLeZri335jUdUCuN/view?usp=sharing"
+      "https://drive.google.com/file/d/1Ys0aZABmK1Rsg3HpruYq8kN1vk9VjS1q/view?usp=sharing",
+      "_blank"
     );
   };
   return (
@@ -28,7 +29,7 @@ const Navbar = () => {
           {/* Resume Button */}
           <span onClick={handleResume}>
             <a
-              href="/rahul-kumar-mishra-resume.pdf"
+              href="/Rahul%20Kumar%20Mishra%20-%20Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Rahul-Kumar-Mishra-Resume"

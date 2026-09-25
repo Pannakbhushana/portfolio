@@ -6,7 +6,8 @@ import SectionHeading from "./layouts/SectionHeading";
 const HeroBanner = () => {
     const handleResume = () => {
         window.open(
-            "https://drive.google.com/file/d/1hKyuokSK_Eyg0ZDkLLeZri335jUdUCuN/view?usp=sharing"
+            "https://drive.google.com/file/d/1Ys0aZABmK1Rsg3HpruYq8kN1vk9VjS1q/view?usp=sharing",
+            "_blank"
         );
     };
 
@@ -33,8 +34,8 @@ const HeroBanner = () => {
                     {/* Resume Button */}
                     <div className="mt-6 flex justify-center" onClick={handleResume}>
                         <a
-                            href="/rahul-kumar-mishra-resume.pdf"
-                            download
+                            href="/Rahul%20Kumar%20Mishra%20-%20Resume.pdf"
+                            download="Rahul-Kumar-Mishra-Resume"
                             target="_blank"
                             className="inline-flex items-center gap-2 px-5 py-3 border-2 border-[#8A3B12] text-[#8A3B12] rounded-lg text-base font-medium hover:bg-[#8A3B12] hover:text-white transition duration-300"
                         >
