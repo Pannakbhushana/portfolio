@@ -31,12 +31,20 @@ const projects = [
     video: "https://www.youtube.com/shorts/_iMcF-stVYM",
   },
   {
-    title: "ChatBot",
-    summary: "A web application where users can create an account and chat with Gemini AI using text or voice. All chats are saved and accessible from any device.",
-    techStack: ["React", "Redux toolkit", "Node.js", "Express.js", "Mongoose", "Chakra UI", "Tailwind CSS"],
-    image: "/chatbot.png",
-    link: "https://chitchatwithchatbot.netlify.app/",
-    github: "https://github.com/Pannakbhushana/zerocode-fe-assignment",
+    title: "Aarti Sangrah – Mobile App",
+    summary:
+      "A Hindu devotional app featuring Hindi Aarti lyrics, offline access, favorites, adjustable text size, temple bell and Shankh sounds, and an interactive Diya. Published on the Google Play Store.",
+    techStack: ["React Native", "TypeScript", "Expo", "Expo Router"],
+    image: "/aarti.jpg",
+    link: "https://play.google.com/store/apps/details?id=com.pujapadhati.aartisangrah",
+  },
+  {
+    title: "Ghaghari Dham – Official Website",
+    summary:
+      "A responsive official temple website showcasing Ghaghari Dham's history, spiritual significance, temple information, photo gallery, and digital support features, with a Hindi language option.",
+    techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    image: "/ghaghari.jpg",
+    link: "https://ghagharidham.com",
   },
   {
     title: "MyTube",
@@ -46,15 +54,15 @@ const projects = [
     link: "https://frolicking-caramel-76c661.netlify.app/",
     github: "https://github.com/Pannakbhushana/MyTube",
   },
-  {
-    title: "PujaPadhati Version 1",
-    summary:
-      "A spiritual ritual platform featuring slokas, mantras, aartis, and donation capabilities. Built with a simple yet elegant UI for exploring Hindu rituals and devotional content.",
-    techStack: ["React.js", "Chakra UI", "EmailJS"],
-    image: "/pujapadhati.png",
-    link: "https://puja-padhati.netlify.app",
-    video: "https://www.youtube.com/shorts/XF7gd51ssnA",
-  },
+  // {
+  //   title: "PujaPadhati Version 1",
+  //   summary:
+  //     "A spiritual ritual platform featuring slokas, mantras, aartis, and donation capabilities. Built with a simple yet elegant UI for exploring Hindu rituals and devotional content.",
+  //   techStack: ["React.js", "Chakra UI", "EmailJS"],
+  //   image: "/pujapadhati.png",
+  //   link: "https://puja-padhati.netlify.app",
+  //   video: "https://www.youtube.com/shorts/XF7gd51ssnA",
+  // },
 ];
 
 const Projects = () => {
