@@ -1,0 +1,232 @@
+﻿/* style.css - Strict formatting for Masai School Resume Rubric */
+
+:root {
+    /* STRICT ONE PAGE: Variables for spacing fine-tuning */
+    --main-font: 'Arial', 'Helvetica', sans-serif; /* Professional Font */
+    --text-color: #000000;
+    --link-color: #0056b3;
+    
+    /* Font Sizes */
+    --name-size: 16pt;
+    --heading-size: 11pt;
+    --body-size: 9.5pt;
+    
+    /* Spacing - reduced slightly to pull content up */
+    --section-margin: 5px; 
+    --item-margin: 4px;
+    --line-height: 1.25;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    font-size: var(--body-size);
+    line-height: var(--line-height);
+    background-color: #fff;
+    /* To visually simulate standard A4 page during dev */
+    display: flex;
+    justify-content: center;
+}
+
+/* Page Container - A4 size in points/inches approx */
+.resume-container {
+    width: 210mm; /* A4 width */
+    max-width: 100%;
+    padding: 8mm 15mm; 
+    background-color: #fff;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: var(--section-margin);
+    border-bottom: 1px solid #000;
+    padding-bottom: 4px;
+}
+
+header h1 {
+    font-size: var(--name-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+header h2 {
+    font-size: var(--body-size);
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+
+.contact-info {
+    font-size: var(--body-size);
+}
+
+.contact-info a {
+    color: var(--text-color); /* Kept black for professional print */
+}
+
+/* Sections */
+section {
+    margin-bottom: var(--section-margin);
+}
+
+.section-title {
+    font-size: var(--heading-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Skills */
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.skill-row {
+    display: flex;
+}
+
+.skill-label {
+    font-weight: bold;
+    width: 120px;
+    flex-shrink: 0;
+}
+
+.skill-items {
+    flex-grow: 1;
+}
+
+/* Experience & Projects */
+.experience-item {
+    margin-bottom: var(--item-margin);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.company-name {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.tech-stack {
+    font-style: italic;
+    font-size: calc(var(--body-size) - 0.5pt);
+    margin-bottom: 1px;
+    color: #333;
+}
+
+ul {
+    padding-left: 15px; /* Consistent bullet indentation */
+    margin-top: 2px;
+}
+
+li {
+    margin-bottom: 1px;
+    text-align: justify;
+}
+
+/* Ensure no excessive whitespace */
+ul:last-child {
+    margin-bottom: 0;
+}
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+section:last-child {
+    margin-bottom: 0;
+}
+
+/* Download Button Styles */
+.download-btn-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.download-btn {
+    display: flex;
+    align-items: center;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    transition: all 0.2s ease;
+    font-family: inherit;
+}
+
+.download-btn:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+}
+
+.download-btn:active {
+    transform: translateY(0);
+}
+
+/* Hide browser headers and footers (Date, URL, Page Numbers) */
+@page {
+    margin: 0; 
+}
+
+/* Print Specific Rules */
+@media print {
+    body {
+        margin: 0;
+        background: none;
+    }
+    .resume-container {
+        /* Reduced top/bottom padding slightly to reclaim vertical space for the 1-page fit */
+        padding: 4mm 12mm; 
+        width: 100%;
+        height: 100%;
+    }
+    
+    a {
+        color: var(--link-color); 
+        text-decoration: underline;
+    }
+    
+    .no-print {
+        display: none !important;
+    }
+}
+

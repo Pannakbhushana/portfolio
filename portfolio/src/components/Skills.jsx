@@ -1,7 +1,7 @@
 import React from "react";
 import {
     SiHtml5,
-    SiCss3,
+    SiCss,
     SiJavascript,
     SiTypescript,
     SiReact,
@@ -19,7 +19,7 @@ import SectionHeading from "./layouts/SectionHeading";
 
 const skills = [
     { name: "HTML", icon: <SiHtml5 className="text-orange-500" /> },
-    { name: "CSS", icon: <SiCss3 className="text-blue-500" /> },
+    { name: "CSS", icon: <SiCss className="text-blue-500" /> },
     { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
     { name: "TypeScript", icon: <SiTypescript className="text-blue-600" /> },
     { name: "React", icon: <SiReact className="text-cyan-400" /> },
